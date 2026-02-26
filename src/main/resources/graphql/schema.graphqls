@@ -1,0 +1,7 @@
+type Grade {
+    grade: String
+}
+
+type Query {
+    getGradeFromScore(score: Float): Grade
+}
