@@ -5,3 +5,4 @@ services:
     ports:
       - "8083:8080"
     restart: unless-stopped
+# This is the docker-compose file for production environment. It will pull the latest image from Docker Hub and run the container on port 8083. The container will restart unless it is stopped manually.
