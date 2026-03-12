@@ -3,10 +3,10 @@ name: Deploy Application to Server
 on:
     push:
         branches:
-            - main
+            - q4.15-backend-update
     pull_request:
         branches:
-            - main
+            - q4.15-backend-update
 
 jobs:
     build:
